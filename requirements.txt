@@ -4,3 +4,4 @@ matplotlib
 mlflow
 numpy
 tensorflow-cpu
+flask
