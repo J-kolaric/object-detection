@@ -9,6 +9,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import mlflow
 import os
 
+
 os.environ['MLFLOW_TRACKING_USERNAME'] = 'user'
 os.environ['MLFLOW_TRACKING_PASSWORD'] = 'K1aLXzz0QW'
 
@@ -71,4 +72,6 @@ def main():
 
         else:
             print("L'image n'a pas pu être téléchargée.")
+
+
 
