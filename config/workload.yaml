@@ -15,4 +15,4 @@ spec:
   build:
     env:
       - name: BP_FUNCTION
-        value: main
+        value: func.main
